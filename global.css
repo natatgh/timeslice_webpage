@@ -1,0 +1,211 @@
+body {
+    display: flex;
+    width: 100%;
+    max-width: 304px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.login-container,
+.login-option,
+#log-in-with-google,
+.login-components,
+#login-input,
+#email-input,
+#password-input,
+#checkbox,
+#login-other-options {
+    width: 100%;
+    max-width: 295px;
+}
+
+.title-timeslice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.title-timeslice h1 {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.78px;
+}
+
+.title-timeslice p {
+    color: #96A0AD;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.28px;
+}
+
+.login-container {
+    display: flex;
+    width: 297px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 55px;
+}
+
+.login-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+
+#log-in-with-google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 26px;
+}
+
+#log-in-with-google button{
+    display: flex;
+    height: 56px;
+    padding: 8px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 12px;
+    border: 1px solid #BDC4CD;
+}
+
+#or-option {
+    color: #9FA8B2;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.login-components {
+    display: flex;
+    width: 296px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+#login-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+#email-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+#email-input input {
+    display: flex;
+    height: 56px;
+    padding: 8px 24px;
+    align-items: center;
+    gap: 7.11px;
+    border-radius: 12px;
+    border: 0.889px solid #BDC4CD;
+}
+
+#password-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+#password-input input {
+    display: flex;
+    height: 56px;
+    padding: 8px 24px;
+    align-items: center;
+    gap: 7.11px;
+    border-radius: 12px;
+    border: 0.889px solid #BDC4CD;
+}
+
+#login-other-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+}
+
+#checkbox {
+    display: flex;
+    align-items: center;
+    gap: 7.11px;
+}
+
+#checkbox input {
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    border: 1.5px solid #000;
+}
+
+#checkbox p {
+    color: #000;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#forgot-password a {
+    color: #2211E6;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.14px;
+}
+
+#login-button button {
+    display: flex;
+    height: 56px;
+    padding: 7.11px 71.097px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.11px;
+    align-self: stretch;
+    border-radius: 16px;
+    background: #000;
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
+#login-components p {
+    width: 298px;
+    height: 20px;
+    color: #000;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
